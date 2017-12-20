@@ -1,7 +1,7 @@
 def sum_odd(array_num)
   odd_numbers = []
   array_num.each {|num|
-    if num % 2 == 1
+    if num.odd?
       odd_numbers << num
     end
   }
